@@ -6,29 +6,28 @@
 <body bgcolor="black" style="color:whitesmoke">
   <CENTER>
     <form  method="submit" action="task3_1.html">
-  <h1>REGISTRATION PAGE</h1>
+  <h1 style="text-decoration: underline;">REGISTRATION PAGE</h1>
   NAME: <input type="text" placeholder="ENTER THE NAME" required/><br><br>
-  PASSWORD: <input type="password" placeholder="ENTER PASSWORD" required/><br><br>
-  Date of Birth: <input type="date" required/><br><br>
-  GENDER:<input type="radio" name="gender" value="male" required/> MALE
-  <input type="radio" name="gender" value="female" required/> FEMALE<br><br>
-  STATE:<select name="STATE" required>
-  <option value="JAMMU AND KASHMIR">JAMMU AND KASHMIR</option>
-  <option value="UTTRAKHAND">UTTRAKHAND</option>
-  <option value="UTTAR PRADESH" SELECTED>UTTAR PRADESH</option> 
-  <option value="DELHI">DELHI</option>
-  <option value="PUNJAB">PUNJAB</option> 
-  <option value="HARYANA">HARYANA</option>
-  <option value="MADHYA PRADESH">MADHYA PRADESH</option>
-  <option value="RAJASTHAN">RAJASTHAN</option>
-  <option value="BIHAR">BIHAR</option> 
-  <option value="JHARKHAND">JHARKHAND</option>
-  <option value="GOA">GOA</option>
-  <option value="TELANGANA">TELANGANA</option>
-  </select> <br><br>
+  EMAIL ID: <input type="text" placeholder="12345678@gmail.com" required><br><br>
+  ROLL NO: <input type="text" placeholder="ENTER THE ROLL NO." required><br><br>
+  BRANCH:<input type="radio" name="branch" required/> COMPUTER SCIENCE 
+         <input type="radio" name="branch" required/> INFORMATION TECHNOLOGY<br><br>
+  INTEREST:
+      <input type="checkbox" id="Web dev" name="Web dev" />
+      <label for="Web dev">WEB DEV</label>
+      <input type="checkbox" id="Python" name="Python" />
+      <label for="Python">PYTHON</label>
+      <input type="checkbox" id="Java" name="Java" />
+      <label for="java">JAVA</label>
+      <input type="checkbox" id="AI/ML" name="AI/ML" />
+      <label for="AI/ML">AI/ML</label>
+      <input type="checkbox" id="Blockchain" name="Blockchain" />
+      <label for="Blockchain">BLOCKCHAIN</label>
+      <br><br>
+  MESSAGE:
+      <textarea name="MESSAGE" id="msg" cols="30" rows="1"></textarea><br><br>
 
   <a href="task3_1.html"><input type="SUBMIT" /></a>
-  <input type="RESET" value="RESET"/>
   </form>
 </body>
 </html>
