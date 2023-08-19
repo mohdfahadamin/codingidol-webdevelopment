@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.container1{
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    border: 10px solid black;
+    display: flex;
+}
+.small{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(65, 101, 137);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    height: 50px;
+    width: 800px;
+    margin: auto;   
+    display: flex;
+    align-items: center;
+}
+a{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(70, 70, 119);
+}
+button{
+    margin-left: 50%;
+    background-color: rgb(70, 70, 119);
+    color: antiquewhite;
+}
